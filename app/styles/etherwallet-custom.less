@@ -607,6 +607,7 @@ label small {
 @brand-ath: #0099ff;
 @brand-ilt: #4568bb;
 @brand-web: #0092ee;
+@brand-ballz: #ff9c33;
 @brand-cust: #b50085;
 
 .dropdown-node .dropdown-menu {
@@ -1161,6 +1162,25 @@ header.WEB {
   .dropdown-gas:before {
     width: 36px;
     background-image: url("../images/coins/webchain.svg");
+  }
+}
+
+header.BALLZ {
+  .header-branding {
+    border-bottom: 0.25rem solid @brand-ballz;
+  }
+  & + .container + .pre-footer + .footer {
+    border-top: 0.25rem solid @brand-ballz;
+  }
+  & + .container .modal-content {
+    border: 0.25rem solid @brand-ballz;
+  }
+  & + .container .alert-info {
+    background-color: @brand-ballz;
+  }
+  .dropdown-gas:before {
+    width: 36px;
+    background-image: url("../images/coins/ethereum.svg");
   }
 }
 
