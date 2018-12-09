@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Er is een kans dat je je transactie kunt "anneler
 tx_FoundOnChain             : 'Transactie Gevonden',
 tx_FoundOnChain_1           : 'Je transactie was succesvol ge-mined en is in de blockchain opgenomen.',
 tx_FoundOnChain_2           : '**Als je een rood `( ! )`, een `BAD INSTRUCTION` of een `OUT OF GAS` foutmelding**, betekend dat dat de transactie niet succesvol is *verzonden*. Je kunt deze transactie niet annuleren of vervangen. Verzend in plaats daarvan een nieuwe transactie. Als je een "Out of Gas" foutmelding krijgt, zou je de oorspronkelijke gas limit moeten verdubbelen.',
-tx_FoundOnChain_3           : '**Als je geen enkele foutmelding ziet is je transactie met succes verzonden.** Je ETH of Tokens zijn waar je ze naar verzonden hebt. Als je je verzonden ETH of Tokens niet gecrediteerd ziet in je andere wallet / exchange account, en het is inmiddels al 24+ uur geleden sinds je de transactie verzonden hebt, neem dan [contact op met die service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Geef ze de *link* naar je transactie en vraag ze op je allerliefste manier om naar je situatie te kijken.',
+tx_FoundOnChain_3           : '**Als je geen enkele foutmelding ziet is je transactie met succes verzonden.** Je BALLZ of Tokens zijn waar je ze naar verzonden hebt. Als je je verzonden BALLZ of Tokens niet gecrediteerd ziet in je andere wallet / exchange account, en het is inmiddels al 24+ uur geleden sinds je de transactie verzonden hebt, neem dan [contact op met die service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Geef ze de *link* naar je transactie en vraag ze op je allerliefste manier om naar je situatie te kijken.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'gebruik jouw',
@@ -276,7 +276,7 @@ NAV_InteractContract        : 'Interactie met Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Mijn Wallets ',
 NAV_Offline                 : 'Verzend Offline ',
-NAV_SendEther               : 'Verzend Ether & Tokens ',
+NAV_SendEther               : 'Verzend Ballzcoin & Tokens ',
 NAV_SendTokens              : 'Verzend Tokens ',
 NAV_SignMsg                 : 'Onderteken Bericht ',
 NAV_Swap                    : 'Omwisselen ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 MEW_Warning_1               : 'Check altijd de URL voordat je jouw wallet opent of een nieuwe wallet genereert. Pas op voor phishing sites! ',
 
 /* Footer */
-FOOTER_1                    : 'Een gratis, open source, client-side interface om Ethereum wallets te genereren &amp; meer. Wissel op een gemakkelijke &amp; veilige manier informatie uit met de Ethereum blockchain. Dubbel-check de URL/link ( myetherwallet.com ) alvorens je wallet te openen.',
+FOOTER_1                    : 'Een gratis, open source, client-side interface om Ballzcoin wallets te genereren &amp; meer. Wissel op een gemakkelijke &amp; veilige manier informatie uit met de Ballzcoin blockchain. Dubbel-check de URL/link ( wallet.ballzcoin.org ) alvorens je wallet te openen.',
 FOOTER_1b                   : 'Gemaakt door ',
 FOOTER_2                    : 'Donaties worden zeer gewaardeerd: ',
 FOOTER_3                    : 'Client-side wallet genereren door ',
@@ -457,7 +457,7 @@ TRANS_desc                  : 'Als je Tokens wilt versturen, gebruik dan de "Ver
 TRANS_advanced              : '+Geavanceerd: Voeg Data toe ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Een standaard transactie met 21000 gas zal 0.000441 ETH kosten. Wij gebruiken een iets-boven-minimum gas prijs van 0.000000021 ETH om te garranderen dat de transactie snel uitgevoerd zal worden. Wij zijn niet verantwoordelijk voor je transactie kosten. ',
+TRANS_sendInfo              : 'Een standaard transactie met 21000 gas zal 0.000441 BALLZ kosten. Wij gebruiken een iets-boven-minimum gas prijs van 0.000000021 BALLZ om te garranderen dat de transactie snel uitgevoerd zal worden. Wij zijn niet verantwoordelijk voor je transactie kosten. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'Genereer & Verzend een Offline Transactie ',
@@ -535,7 +535,7 @@ MSG_info2                   : 'Voeg je nickname toe en waar je deze gebruikt zod
 MSG_info3                   : 'Geef een specifieke reden op voor de boodschap, zodat deze niet kan worden hergebruikt voor een ander doel. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Hiermee kun je verschillende versies van je prive sleutels downloaden en je papieren wallet opnieuw afdrukken. Je zou dit kunnen doen om [je account in Geth/Mist te importeren](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Als je enkel je saldo wilt raadplegen, adviseren we je om gebruik te maken van een blockchain explorer zoals [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Hiermee kun je verschillende versies van je prive sleutels downloaden en je papieren wallet opnieuw afdrukken. Je zou dit kunnen doen om [je account in Geth/Mist te importeren](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Als je enkel je saldo wilt raadplegen, adviseren we je om gebruik te maken van een blockchain explorer zoals [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Hiermee kun je verschillende versies van je prive sleutels downloaden en je papieren wallet opnieuw afdrukken. ',
 VIEWWALLET_SuccessMsg       : 'Gelukt! Hier zijn je wallet details. ',
 VIEWWALLET_ShowPrivKey      : '(laat zien)',

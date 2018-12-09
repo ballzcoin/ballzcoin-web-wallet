@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -479,7 +479,7 @@ MSG_info3: 'یک دلیل مخصوص برای این پیام انتخاب کن�
 
 /* View Wallet Details */
 
-VIEWWALLET_Subtitle: 'این موضوع به شما اجازه می دهد که نسخه های مختلفی از کلید خصوصی را دانلود کنید و از کیف پول کاغذی خود دوباره پرینت بگیرید. شاید بخواهید این کار را جهت انتقال حساب خود به [Geth یا Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/) انجام دهید. اگر می خواهید موجودی خود را ببینید پیشنهاد می کنیم که از یک مرورگر بلاکچین مثل [etherscan.io](https://etherscan.io/) استفاده کنید. ',
+VIEWWALLET_Subtitle: 'این موضوع به شما اجازه می دهد که نسخه های مختلفی از کلید خصوصی را دانلود کنید و از کیف پول کاغذی خود دوباره پرینت بگیرید. شاید بخواهید این کار را جهت انتقال حساب خود به [Geth یا Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/) انجام دهید. اگر می خواهید موجودی خود را ببینید پیشنهاد می کنیم که از یک مرورگر بلاکچین مثل [explorer.ballzcoin.org](https://explorer.ballzcoin.org/) استفاده کنید. ',
 VIEWWALLET_Subtitle_Short: 'این موضوع به شما اجازه می دهد که نسخه های مختلفی از کلید خصوصی را دانلود کنید و از کیف پول کاغذی خود دوباره پرینت بگیرید. ',
 VIEWWALLET_SuccessMsg: 'با موفقیت انجام شد. می توانید جزئیات کیف پول خود را ببینید. ',
 

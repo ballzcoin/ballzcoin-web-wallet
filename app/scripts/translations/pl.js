@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Istnieje szansa \"anulować\" lub zastąpić tę 
 tx_FoundOnChain             : 'Transakcja została znaleziona',
 tx_FoundOnChain_1           : 'Twoja transakcja została pomyślnie zrealizowana i pojawiła się na bloku.',
 tx_FoundOnChain_2           : '**Jeśli zobaczysz czerwony wykrzyknik `( ! )`, `ZŁA INSTRUKCJA` lub `ZABRAKŁO PALIWA` w komunikacie o błędzie**, oznacza to, że transakcji nie udało się wysłać pomyślnie. Nie możesz anulować ani zastąpić tej transakcji. Zamiast tego, wyślij nową transakcję. Jeśli otrzymałeś komunikat o niewystarczającej ilości paliwa, powinieneś podwoić limit gazu.',
-tx_FoundOnChain_3           : '**Jeśli nie pojawią się żadne komunikaty o błędzie, to Twoja transakcja została pomyślnie wysłana.** Twój ETH lub Tokeny są tam, gdzie zostały wysłane. Jeśli jednak ETH lub Tokeny nie pojawią się tam, gdzie zostały wysłane i minęły ponad 24 godziny od momentu wysłania, [skontaktuj się z którymś z serwisów](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Wyślij im *link* do Twojej transakcji i uprzejmie poproś o zbadanie sytuacji.',
+tx_FoundOnChain_3           : '**Jeśli nie pojawią się żadne komunikaty o błędzie, to Twoja transakcja została pomyślnie wysłana.** Twój BALLZ lub Tokeny są tam, gdzie zostały wysłane. Jeśli jednak BALLZ lub Tokeny nie pojawią się tam, gdzie zostały wysłane i minęły ponad 24 godziny od momentu wysłania, [skontaktuj się z którymś z serwisów](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Wyślij im *link* do Twojej transakcji i uprzejmie poproś o zbadanie sytuacji.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -276,7 +276,7 @@ NAV_InteractContract        : 'Pracuj z Kontraktem ',
 NAV_Multisig                : 'Multi-podpis ',
 NAV_MyWallets               : 'Moje Portfele ',
 NAV_Offline                 : 'Wyślij Offline ',
-NAV_SendEther               : 'Wyślij Ether i Tokeny ',
+NAV_SendEther               : 'Wyślij Ballzcoin i Tokeny ',
 NAV_SendTokens              : 'Wyślij Tokeny ',
 NAV_SignMsg                 : 'Podpisz Wiadomość ',
 NAV_Swap                    : 'Giełda ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Portfel Ethereum - Open Source, JavaScript, Clien
 CX_Tagline                  : 'Portfel Ethereum, Rozszerzenie Chrome - Open Source, JavaScript, Client-Side ',
 
 /* Footer */
-FOOTER_1                    : 'Narzędzie do generowania portfeli Ethereum i wysyłania transakcji - otwarto-źródłowe, javascrypt\'owe, strony klienta ',
+FOOTER_1                    : 'Narzędzie do generowania portfeli Ballzcoin i wysyłania transakcji - otwarto-źródłowe, javascrypt\'owe, strony klienta ',
 FOOTER_1b                   : 'Twórcy: ',
 FOOTER_2                    : 'Darowizny: ',
 FOOTER_3                    : 'Generowanie portfeli po stronie klienta przez ',
@@ -411,7 +411,7 @@ TRANS_desc                  : 'Jeśli chcesz wysłać Tokeny, użyj zakładki "W
 TRANS_warning               : 'Jeśli używasz funkcji "Tylko ETH" lub "Tylko ETC" wysyłasz przez kontrakt. Niektóre serwisy mają problemy z rozpoznawaniem tego typu transakcji. Czytaj dalej. ',
 TRANS_advanced              : '+Zaawansowane: Dodaj Dane ',
 TRANS_data                  : 'Dane ',
-TRANS_sendInfo              : 'Standardowa transakcja, zużywająca 21000 paliwa, będzie kosztować 0.000441 ETH. My używamy ceny paliwa nieco-powyżej-minimum, co odpowiada 0.000000021 ETH aby upewnić się, że zostanie szybko zatwierdzona. Nie pobieramy żadnych dodatkowych opłat. ',
+TRANS_sendInfo              : 'Standardowa transakcja, zużywająca 21000 paliwa, będzie kosztować 0.000441 BALLZ. My używamy ceny paliwa nieco-powyżej-minimum, co odpowiada 0.000000021 BALLZ aby upewnić się, że zostanie szybko zatwierdzona. Nie pobieramy żadnych dodatkowych opłat. ',
 TRANS_gas                   : 'Limit Paliwa ',
 
 /* Send Transaction Modals */
@@ -480,7 +480,7 @@ MYWAL_Content_2             : 'Upewnij się, że **zapisałeś klucz prywatny/pl
 MYWAL_Content_3             : 'Jeśli będziesz chciał w przyszłości używać ten portfel ze swoim MyEtherWallet CX, będziesz musiał go ponownie dodać używając klucza prywatnego/pliku JSON i hasła. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Ta zakładka pozwoli Ci na odczyt kluczy prywatnych, pobranie kopii portfeli oraz wydrukowanie portfeli papierowych. Pobrane za jej pomocą portfele możesz [zaimportować do Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jeśli chcesz sprawdzić stan Twojego konta, zalecamy użyć eksploratora bloków np. [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Ta zakładka pozwoli Ci na odczyt kluczy prywatnych, pobranie kopii portfeli oraz wydrukowanie portfeli papierowych. Pobrane za jej pomocą portfele możesz [zaimportować do Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jeśli chcesz sprawdzić stan Twojego konta, zalecamy użyć eksploratora bloków np. [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Ta zakładka pozwala Ci na pobranie różnych typów kluczy prywatnych oraz ponowne wydrukowanie portfeli papierowych. ',
 VIEWWALLET_SuccessMsg       : 'Sukces! Oto dane twojego portfela. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

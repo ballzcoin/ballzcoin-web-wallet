@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Es ist möglich Sie zu widerrufen oder diese Tran
 tx_FoundOnChain             : 'Transaktion gefunden',
 tx_FoundOnChain_1           : 'Ihre Transaktion wurde gemined und ist nun in der Blockchain.',
 tx_FoundOnChain_2           : '**Wenn Sie ein rotes`( ! )`, ein `BAD INSTRUCTION` oder `OUT OF GAS` Fehlernachricht bekommen**, heißt dass, dass die Transaktion nicht erfolgreich *gesendet* worden ist. Sie können die Transaktion nicht zurücknehmen oder ersetzen. Stattdessen, sende eine neue Transaktion. Wenn Sie einen "Out of Gas" Fehler bekommen, sollten Sie das GasLimit verdoppeln, dass Sie ursprünglich benutzt haben.',
-tx_FoundOnChain_3           : '**Wenn sie keine Fehlernachrichten bekommen, wurde ihre Transaktion erfolgreich versendet.** Ihre ETH oder Tokens sind dort, wohin sie versendet wurden. Wenn Sie die ETH or Tokens nicht im anderen Wallet / Exchange account sehen können, und es schon mehr als 24 Stunden her ist, seitdem Sie gesendet haben, bitte [Kontaktieren Sie den Service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Senden Sie den *link* zu ihrer Transaktion und fragen Sie höflich, die Situation anzuschauen.',
+tx_FoundOnChain_3           : '**Wenn sie keine Fehlernachrichten bekommen, wurde ihre Transaktion erfolgreich versendet.** Ihre BALLZ oder Tokens sind dort, wohin sie versendet wurden. Wenn Sie die BALLZ or Tokens nicht im anderen Wallet / Exchange account sehen können, und es schon mehr als 24 Stunden her ist, seitdem Sie gesendet haben, bitte [Kontaktieren Sie den Service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Senden Sie den *link* zu ihrer Transaktion und fragen Sie höflich, die Situation anzuschauen.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Nutzen Sie Ihre',
@@ -276,7 +276,7 @@ NAV_InteractContract        : 'Interagieren mit Vertrag ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Meine Wallets ',
 NAV_Offline                 : 'Sende offline ',
-NAV_SendEther               : 'Sende Ether und Tokens ',
+NAV_SendEther               : 'Sende Ballzcoin und Tokens ',
 NAV_SendTokens              : 'Sende Tokens ',
 NAV_SignMsg                 : 'Sign Message ',
 NAV_Swap                    : 'Wechseln ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 CX_Tagline                  : 'Open Source JavaScript Client-Side Ether Wallet Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'Ein quelloffenes, browserseitiges Werkzeug zur Erzeugung von Ethereum-Wallets und Versenden von Transaktionen. ',
+FOOTER_1                    : 'Ein quelloffenes, browserseitiges Werkzeug zur Erzeugung von Ballzcoin-Wallets und Versenden von Transaktionen. ',
 FOOTER_1b                   : 'Erstellt von ',
 FOOTER_2                    : 'Spenden sind herzlich willkommen ',
 FOOTER_3                    : 'Browserseitige Wallet-Erzeugung durch ',
@@ -413,7 +413,7 @@ TRANS_warning               : 'Wenn Sie die "Nur ETH" oder "Nur ETC" Funktionen 
 TRANS_advanced              : '+Fortgeschritten: Daten hinzufügen ',
 TRANS_data                  : 'Daten ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Eine Standard Transaktion mit 21000 Gas kostet 0.000441 ETH. Wir zahlen einen minimal höheren Gaspreis von 0.000000021 ETH um zu garantieren, dass die Transaktion schnell bearbeitet wird. Wir erheben keine Transaktionsgebühren. ',
+TRANS_sendInfo              : 'Eine Standard Transaktion mit 21000 Gas kostet 0.000441 BALLZ. Wir zahlen einen minimal höheren Gaspreis von 0.000000021 BALLZ um zu garantieren, dass die Transaktion schnell bearbeitet wird. Wir erheben keine Transaktionsgebühren. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : '"Nur ETH" und "Nur ETC" Transaktionen ',
@@ -472,7 +472,7 @@ MYWAL_Content_2             : 'Stellen Sie sicher, dass Sie **die private Key/JS
 MYWAL_Content_3             : 'Wenn Sie dieses Wallet in Zukunft mit MyEtherWallet CX verwenden wollen, müssen Sie es mittels des privaten Schlüssels/JSON Datei und Ihrem Passwort manuell wieder hinzufügen. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Dies erlaubt Ihnen, den Download verschiedener Versionen Ihres privaten Schlüssels sowie das erneute Drucken Ihres Papier-Wallets. Es wird empfohlen, dies zu tun um [Ihren Account in Geth/Mist zu importieren.](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Zum Überprüfen Ihres Kontostands empfehlen wir, einen Blockchain Explorer wie [etherscan.io](https://etherscan.io/) zu verwenden. ',
+VIEWWALLET_Subtitle         : 'Dies erlaubt Ihnen, den Download verschiedener Versionen Ihres privaten Schlüssels sowie das erneute Drucken Ihres Papier-Wallets. Es wird empfohlen, dies zu tun um [Ihren Account in Geth/Mist zu importieren.](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Zum Überprüfen Ihres Kontostands empfehlen wir, einen Blockchain Explorer wie [explorer.ballzcoin.org](https://explorer.ballzcoin.org/) zu verwenden. ',
 VIEWWALLET_Subtitle_Short   : 'Dies erlaubt Ihnen den Download verschiedener Versionen Ihres privaten Schlüssel sowie das erneute Drucken Ihres Papier-Wallets. ',
 VIEWWALLET_SuccessMsg       : 'Erfolgreich! Hier sind die Daten Ihres Wallets. ',
 VIEWWALLET_ShowPrivKey      : '(anzeigen)',

@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -231,7 +231,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your BALLZ or Tokens are where you sent them. If you cannot see this BALLZ or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -279,7 +279,7 @@ NAV_InteractContract        : 'Interact with Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Cüzdanim ',
 NAV_Offline                 : 'Offline gönder ',
-NAV_SendEther               : 'Ether ve Tokens gönder ',
+NAV_SendEther               : 'Ballzcoin ve Tokens gönder ',
 NAV_SendTokens              : 'Tokens gönder ',
 NAV_SignMsg                 : 'Mesajı Doğrula ',
 NAV_Swap                    : 'Çevir ',
@@ -319,7 +319,7 @@ MEW_Tagline                 : 'Acik kaynak JavaScript Client-Side Ether cüzdani
 CX_Tagline                  : 'Acik kaynak JavaScript Client-Side Ether cüzdani Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'Acik kaynak, javascript Client-Side Ethererum cüzdani ve Ether islemleri ',
+FOOTER_1                    : 'Acik kaynak, javascript Client-Side Ballzcoin cüzdani ve Ballzcoin islemleri ',
 FOOTER_1b                   : 'tarafından yaratıldı ',
 FOOTER_2                    : 'Bağışlar büyük takdirle kabuledilir: ',
 FOOTER_3                    : 'Client-side cüzdan olusturma ',
@@ -417,7 +417,7 @@ TRANS_warning               : '"Yalnızca ETH" ya da "Yalnızca ETC" fonksiyonu 
 TRANS_advanced              : '+Gelişmiş: Veri ekle ',
 TRANS_data                  : 'Veri ',
 TRANS_gas                   : 'Gas Limiti ',
-TRANS_sendInfo              : '21000 gaz kullanan standart bir islem 0.000441 ETH ile mal olur. Biz hizli bir sekilde mayinlanmasi için, 0.000000021 ETH\'dan biraz daha yüksek gaz fiyatini kullaniyoruz. Biz herhangi bir islem ücreti almiyoruz. ',
+TRANS_sendInfo              : '21000 gaz kullanan standart bir islem 0.000441 BALLZ ile mal olur. Biz hizli bir sekilde mayinlanmasi için, 0.000000021  BALLZ\'dan biraz daha yüksek gaz fiyatini kullaniyoruz. Biz herhangi bir islem ücreti almiyoruz. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : '"Yalnızca ETH" and "Yalnızca ETC" islemler ',
@@ -555,7 +555,7 @@ ADD_Secalot_0b              : 'Re-open MyEtherWallet using [Chrome](https://www.
 ADD_Secalot_scan            : 'Connect your Secalot ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'This allows you to download different versions of private keys and re-print your paper wallet. You may want to do this in order to [import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). If you want to check your balance, we recommend using a blockchain explorer like [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'This allows you to download different versions of private keys and re-print your paper wallet. You may want to do this in order to [import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). If you want to check your balance, we recommend using a blockchain explorer like [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'This allows you to download different versions of private keys and re-print your paper wallet. ',
 VIEWWALLET_SuccessMsg       : 'Success! Here are your wallet details. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

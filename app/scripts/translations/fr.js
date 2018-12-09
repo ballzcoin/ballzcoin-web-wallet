@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Il est probable que vous puissiez annuler ou remp
 tx_FoundOnChain             : 'Transaction trouvée',
 tx_FoundOnChain_1           : 'Votre transaction a été minée avec succès et se trouve sur la blockchain.',
 tx_FoundOnChain_2           : '**Si vous voyez un `( ! )` rouge, un message d\'erreur `BAD INSTRUCTION` ou `OUT OF GAS`**, cela signifie que votre transaction n\'a pas été *envoyée*. Vous ne pouvez pas annuler ou remplacer cette transaction. À la place, envoyez une nouvelle transaction. Si vous avez reçu une erreur de type "OUT OF GAS", vous devriez doubler la limite de Gas que vous aviez spécifiée.',
-tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de plateforme de change, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, un examen de votre situation.',
+tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos BALLZ ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces BALLZ ou Tokens dans votre autre portefeuille ou compte de plateforme de change, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, un examen de votre situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Utiliser votre',
@@ -275,7 +275,7 @@ NAV_InteractContract        : 'Interagir avec un contrat ',
 NAV_Multisig                : 'Multisign.',
 NAV_MyWallets               : 'Mes portefeuilles ',
 NAV_Offline                 : 'Envoi hors-ligne ',
-NAV_SendEther               : 'Envoyer des Ether et des Tokens ',
+NAV_SendEther               : 'Envoyer des Ballzcoin et des Tokens ',
 NAV_SendTokens              : 'Envoyer des Tokens ',
 NAV_SignMsg                 : 'Signer un message ',
 NAV_Swap                    : 'Échanger ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Portefeuille d\'Ether Open Source, écrit en Java
 CX_Tagline                  : 'Extension Chrome de portefeuille d\'Ether Open Source JavaScript',
 
 /* Footer */
-FOOTER_1                    : 'Un outil open source, écrit en Javascript, qui permet de générer des portefeuilles Ethereum et d\'envoyer des transactions. ',
+FOOTER_1                    : 'Un outil open source, écrit en Javascript, qui permet de générer des portefeuilles Ballzcoin et d\'envoyer des transactions. ',
 FOOTER_1b                   : 'Créé par ',
 FOOTER_2                    : 'Les donations sont extrêmement appréciées : ',
 FOOTER_3                    : 'Génération de portefeuille par ',
@@ -411,7 +411,7 @@ TRANS_desc                  : 'Si vous voulez envoyer des Tokens, allez plutôt 
 TRANS_warning               : 'L\'emploi des fonctions "ETH seulement" et "ETC seulement" vous fait passer par un contrat. Certains services ont des problèmes avec ces transactions. En savoir plus.',
 TRANS_advanced              : '+ Avancé : Ajouter des données',
 TRANS_data                  : 'Données',
-TRANS_sendInfo              : 'Une transaction standard utilisant 21000 GAS coûtera 0,000441 ETH. Le prix du GAS, de 0.000000021 ETH, que nous avons choisi est légèrement supérieur au minimum assurant une confirmation rapide. Nous ne prenons pas de frais de transaction.',
+TRANS_sendInfo              : 'Une transaction standard utilisant 21000 GAS coûtera 0,000441 BALLZ. Le prix du GAS, de 0.000000021 BALLZ, que nous avons choisi est légèrement supérieur au minimum assurant une confirmation rapide. Nous ne prenons pas de frais de transaction.',
 TRANS_gas                   : 'GAS limite', // changed in ENG to Gas Limit:
 
 /* Send Transaction Modals */
@@ -476,7 +476,7 @@ MYWAL_Content_2             : 'Assurez-vous d\'avoir bien **sauvegardé la clé 
 MYWAL_Content_3             : 'Si vous voulez utiliser ce portefeuille avec MyEtherWallet CX à l\'avenir, vous devrez le rajouter manuellement en utilisant la clé privée / fichier JSON et le mot de passe.',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Ceci vous permet de télécharger plusieurs versions des clefs privées et d\'imprimer votre portefeuille papier. Vous devrez le faire pour [importer votre compte dans Geth / Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vous voulez seulement consulter votre solde, nous recommandons d\'utiliser un explorateur de blockchain comme [etherscan.io](https://etherscan.io/).',
+VIEWWALLET_Subtitle         : 'Ceci vous permet de télécharger plusieurs versions des clefs privées et d\'imprimer votre portefeuille papier. Vous devrez le faire pour [importer votre compte dans Geth / Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vous voulez seulement consulter votre solde, nous recommandons d\'utiliser un explorateur de blockchain comme [explorer.ballzcoin.org](https://explorer.ballzcoin.org/).',
 VIEWWALLET_Subtitle_Short   : 'Ceci vous permet de télécharger plusieurs versions des clefs privées et d\'imprimer votre portefeuille papier.',
 VIEWWALLET_SuccessMsg       : 'Réussi ! Voici les détails de votre portefeuille :',
 VIEWWALLET_ShowPrivKey      : '(montrer)',

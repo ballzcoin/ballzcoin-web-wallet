@@ -64,7 +64,7 @@
         Already have a wallet somewhere?
       </h2>
 
-      <ul>
+      <!-- <ul>
         <li>
           <p>
             <strong>
@@ -102,7 +102,7 @@
         </li>
       </ul>
 
-      <ul>
+      <!-- <ul>
         <li>
           <p>
             <strong>
@@ -117,13 +117,13 @@
             </span>
         </p>
         </li>
-      </ul>
+      </ul> -->
 
       <ul>
         <li>
           <p>
             <strong>
-              Mist / Geth / Parity:
+              Ballzcoin Windows / Linux GUI or command line wallets:
             </strong>
             <span translate="GEN_Help_1">
               Use your

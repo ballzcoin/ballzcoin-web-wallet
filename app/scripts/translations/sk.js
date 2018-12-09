@@ -107,7 +107,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -232,7 +232,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your BALLZ or Tokens are where you sent them. If you cannot see this BALLZ or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -280,7 +280,7 @@ NAV_InteractContract        : 'Interact with Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Moje peňaženky ',
 NAV_Offline                 : 'Poslať Offline ',
-NAV_SendEther               : 'Poslať Ether a Tokens ',
+NAV_SendEther               : 'Poslať Ballzcoin a Tokens ',
 NAV_SendTokens              : 'Poslať Tokens ',
 NAV_SignMsg                 : 'Sign Message ',
 NAV_Swap                    : 'Swap ',
@@ -320,7 +320,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 CX_Tagline                  : 'Open Source JavaScript Client-Side Ether Wallet Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( myetherwallet.com ) before unlocking your wallet.',
+FOOTER_1                    : 'Free, open-source, client-side interface for generating Ballzcoin wallets &amp; more. Interact with the Ballzcoin blockchain easily &amp; securely. Double-check the URL ( wallet.ballzcoin.org ) before unlocking your wallet.',
 FOOTER_1b                   : 'Vytvorené ',
 FOOTER_2                    : 'Dotácie srdečne vítane: ',
 FOOTER_3                    : 'Client-side wallet generation by ',
@@ -416,7 +416,7 @@ TRANS_warning               : 'If you are using the "Only ETH" or "Only ETC" Fun
 TRANS_advanced              : '+Advanced: Add Data ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'A standard transaction using 21000 gas will cost 0.000441 ETH. We use a slightly-above-minimum gas price of 0.000000021 ETH to ensure it gets mined quickly. We do not take a transaction fee. ',
+TRANS_sendInfo              : 'A standard transaction using 21000 gas will cost 0.000441 BALLZ. We use a slightly-above-minimum gas price of 0.000000021 BALLZ to ensure it gets mined quickly. We do not take a transaction fee. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : '"Only ETH" and "Only ETC" Transactions ',
@@ -469,7 +469,7 @@ MYWAL_Content_2             : 'Be sure you have **saved the private key and/or K
 MYWAL_Content_3             : 'If you want to use this wallet with your MyEtherWallet CX in the future, you will need to manually re-add it using the private key/JSON and password. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'This allows you to download different versions of private keys and re-print your paper wallet. You may want to do this in order to [import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). If you want to check your balance, we recommend using a blockchain explorer like [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'This allows you to download different versions of private keys and re-print your paper wallet. You may want to do this in order to [import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). If you want to check your balance, we recommend using a blockchain explorer like [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'This allows you to download different versions of private keys and re-print your paper wallet. ',
 VIEWWALLET_SuccessMsg       : 'Success! Here are your wallet details. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your BALLS or Tokens are where you sent them. If you cannot see this BALLS or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -268,7 +268,7 @@ NAV_AddWallet               : 'Tárca hozzáadása ',
 NAV_GenerateWallet_alt      : 'New Wallet ',
 NAV_GenerateWallet          : 'Tárca generálása ',
 NAV_BulkGenerate            : 'Több tárca generálása ',
-NAV_SendEther               : 'Ether & Tokenek küldése ',
+NAV_SendEther               : 'Ballzcoin & Tokenek küldése ',
 NAV_SendTokens              : 'Tokenek küldése ',
 NAV_Offline                 : 'Offline tranzakció ',
 NAV_DeployContract          : 'Kontraktus Telepítése ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Nyílt forrású JavaScript-alapú, Kliens-oldali
 CX_Tagline                  : 'Nyílt forrású JavaScript-alapú, Kliens-oldali Ether Tárca Chrome Bővítmény ',
 
 /* Footer */
-FOOTER_1                    : 'Egy nyílt forrású, javascript-alapú, kliens-oldali eszköz Ethereum Tárcák létrehozására és tranzakicók végrehajtására. ',
+FOOTER_1                    : 'Egy nyílt forrású, javascript-alapú, kliens-oldali eszköz Ballzcoin Tárcák létrehozására és tranzakicók végrehajtására. ',
 FOOTER_1b                   : 'Készítette: ',
 FOOTER_2                    : 'Az adományokat igazán nagyra értékeljük: ',
 FOOTER_3                    : 'Kliens-oldali Tárca létrehozása: ',
@@ -413,7 +413,7 @@ TRANS_warning               : 'Ha a "Csak ETH" vagy a "Csak ETC" Funkciókat has
 TRANS_advanced              : '+Haladó: Több Adat ',
 TRANS_data                  : 'Adat ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Egy standard tranzakció 21000 gas-t használ, ami 0.000441 ETH-be fog kerülni. Mi 0.000000021 ETH-nél (a minimálisnál) enyhén magasabb gas árat használunk, annak biztosítása érdekében, hogy gyorsan ki legyen bányászva. Tranazkciós költséget nem számolunk fel. ',
+TRANS_sendInfo              : 'Egy standard tranzakció 21000 gas-t használ, ami 0.000441 BALLZ-be fog kerülni. Mi 0.000000021 BALLZ-nél (a minimálisnál) enyhén magasabb gas árat használunk, annak biztosítása érdekében, hogy gyorsan ki legyen bányászva. Tranazkciós költséget nem számolunk fel. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : '"Csak ETH" és "Csak ETC" Tranzakciók ',
@@ -466,7 +466,7 @@ MYWAL_Content_2             : 'Győződj meg róla, hogy **elmentetted a privát
 MYWAL_Content_3             : 'Ha használni akarod ezt a tárcát a MyEtherWallet CX-szel a jövőben, manuálisan újra hozzá kell majd adnod a privát kulcs/JSON-nal és jelszóval. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Ez lehetővé teszi számodra, hogy különböző változatú privát kulcsokat tölts le és újranyomtasd a papírtárcádat.  Ezt megteheted úgy, hogy [importálod a számládat a Geth/Mist-be](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Ha ellenőrizni akarod a számládat, azt ajánljuk, hogy használj blokklánc explorert mint az [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Ez lehetővé teszi számodra, hogy különböző változatú privát kulcsokat tölts le és újranyomtasd a papírtárcádat.  Ezt megteheted úgy, hogy [importálod a számládat a Geth/Mist-be](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Ha ellenőrizni akarod a számládat, azt ajánljuk, hogy használj blokklánc explorert mint az [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Ez lehetővé teszi számodra, hogy különböző változatú privát kulcsokat tölts le és újranyomtasd a papírtárcádat. ',
 VIEWWALLET_SuccessMsg       : 'Sikerült! Itt vannak a tárcád részletei. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

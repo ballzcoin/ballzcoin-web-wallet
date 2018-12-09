@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  '歡迎來到 MyEtherWallet.com',
+ONBOARD_welcome_title           :  '歡迎來到 Ballzcoin Web Wallet (MyEtherWallet)',
 ONBOARD_welcome_content__1      :  '請花點時間來了解如何保護自己的資產。 🙏',
 ONBOARD_welcome_content__2      :  '你的資產將被偷走，如果你不謹記這些警告。',
 ONBOARD_welcome_content__3      :  '我們知道一直點開這些頁面很麻煩。我們向你道歉。',
@@ -463,7 +463,7 @@ TRANS_warning               : '"Only ETH" 或 "Only ETC" 功能是透過一個�
 TRANS_advanced              : '進階功能：為交易新增Data',
 TRANS_data                  : '交易的Data ',
 TRANS_gas                   : 'Gas 總量 ',
-TRANS_sendInfo              : '我們使用比平均手續費略高的gas價格（每單位0.000000021 ETH）確保交易能快速被確認。我們並不收取任何手續費。',
+TRANS_sendInfo              : '我們使用比平均手續費略高的gas價格（每單位0.000000021 BALLZ）確保交易能快速被確認。我們並不收取任何手續費。',
 
 /* Offline Transaction */
 OFFLINE_Title               : '以離線的方式製作交易',
@@ -541,7 +541,7 @@ MSG_info2                   : '填入你的暱稱及你使用該暱稱的場合�
 MSG_info3                   : '填入這個訊息的源由來避免被用在其他目的。 ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : '這可以讓你下載不同版本的私鑰並且重新印製出你的紙錢包。你可能會需要這個功能來將你的帳戶[讀入Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)。 如果你想要檢查你的帳號餘額，我們建議你使用區塊鏈瀏覽網頁像是[etherscan.io](https://etherscan.io/)。 ',
+VIEWWALLET_Subtitle         : '這可以讓你下載不同版本的私鑰並且重新印製出你的紙錢包。你可能會需要這個功能來將你的帳戶[讀入Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)。 如果你想要檢查你的帳號餘額，我們建議你使用區塊鏈瀏覽網頁像是[explorer.ballzcoin.org](https://explorer.ballzcoin.org/)。 ',
 VIEWWALLET_Subtitle_Short   : '這可以讓你下載不同版本的私鑰並且重新印製出你的紙錢包。 ',
 VIEWWALLET_SuccessMsg       : '成功！這些是你的錢包內容。 ',
 VIEWWALLET_ShowPrivKey      : '(顯示)',

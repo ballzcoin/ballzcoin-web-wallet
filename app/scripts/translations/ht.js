@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -231,7 +231,7 @@ tx_foundInPending_3         : 'Il existe une chance que vous puissiez "annuler" 
 tx_FoundOnChain             : 'Transaction trouvée',
 tx_FoundOnChain_1           : 'Votre transaction a été minée avec succès et se trouve sur la blockchain.',
 tx_FoundOnChain_2           : '**Si vous voyez un `( ! )` rouge, un message d\'erreur `BAD INSTRUCTION` ou `OUT OF GAS`**, cela signifie que votre transaction n\'a pas été *envoyée*. Vous ne pouvez pas annuler ou remplacer cette transaction. A la place, envoyez une nouvelle transaction. Si vous avez reçu une erreur de type "Out of Gas", vous devriez doubler la limite de gaz que vous aviez spécifiée.',
-tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
+tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos BALLZ ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Utiliser votre',
@@ -278,7 +278,7 @@ NAV_InteractContract        : 'PALE AVÈK KONTRA A ',
 NAV_Multisig                : 'PLIZYÈ SIY ',
 NAV_MyWallets               : 'BOUS MWEN YO ',
 NAV_Offline                 : 'VOYE SAN SIYAL ',
-NAV_SendEther               : 'VOYE  ETHER ',
+NAV_SendEther               : 'VOYE  BALLZCOIN ',
 NAV_SendTokens              : 'VOYE TOKENS YO ',
 NAV_SignMsg                 : 'SIYEN YON MESAJ ',
 NAV_Swap                    : 'CHANJE ',
@@ -318,7 +318,7 @@ MEW_Tagline                 : 'BOUS d\'Ether Open Source JavaScript POU KLIYAN A
 MEW_Warning_1               : 'TOUJOU BYEN VERIFYE L’URL ANVAN W’ ANTRE NAN BOUS OU A OSWA POU KREYE YON LÒT BOUS. ATANSYON AK FO SIT YO ',
 
 /* Footer */
-FOOTER_1                    : 'YON ZOUTI OPEN SOURCE NAN JAVASCRIPT LI FÈT POU KLIYAN KREYE BOUS  ETHEREUM YO EPI FÈ ANPIL TRANSFÈ ',
+FOOTER_1                    : 'YON ZOUTI OPEN SOURCE NAN JAVASCRIPT LI FÈT POU KLIYAN KREYE BOUS  BALLZCOIN YO EPI FÈ ANPIL TRANSFÈ ',
 FOOTER_1b                   : 'MOUN KI FÈ L’ LA SE  ',
 FOOTER_2                    : 'DON YO APRESYE ANPIL ',
 FOOTER_3                    : 'KREYASYON  BOUS POU KLIYAN AK ',
@@ -462,7 +462,7 @@ TRANS_warning               : 'METE FONKSYON ‘’ETH’’ YO SÈLMAN  AK ‘�
 TRANS_advanced              : '+AVANSE : METE GAZ ',
 TRANS_data                  : 'DONE ',
 TRANS_gas                   : 'LIMIT AN GAZ ;// CHANJE AN ENG POU LIMIT GAZ LA ',
-TRANS_sendInfo              : 'YON TRANSFÈ NÒMAL SÈVI  AK 21000 GAZ KI KOUTE 0.000441  ETH. PRI GAZ LA 0.000000021 ETH  KE NOU TE CHWAZI A ON TI JAN PI WO KE  PI PITI A ASIRE W’ POU W’ YON KONFIMASYON RAPID. NOU PA PRAN FRÈ POU TRANSFÈ A.  ',
+TRANS_sendInfo              : 'YON TRANSFÈ NÒMAL SÈVI  AK 21000 GAZ KI KOUTE 0.000441  BALLZ. PRI GAZ LA 0.000000021 BALLZ  KE NOU TE CHWAZI A ON TI JAN PI WO KE  PI PITI A ASIRE W’ POU W’ YON KONFIMASYON RAPID. NOU PA PRAN FRÈ POU TRANSFÈ A.  ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'KREYE EPI VOYE YON TRANFÈ SAN SIYAL ',
@@ -540,7 +540,7 @@ MSG_info2                   : 'METE TI NON W’ NAN KOTE W’ KONN SÈVI AK LI A
 MSG_info3                   : 'METE YON SÈL BON REZON POU MESAJ LA  POU L’ PA SÈVI ANKÒ POU YON LÒT  REZON ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI AK SÒTI BOUS OU A ANKÒ SOU PAPYE. OU DWE FÈ L’ POU [ PRAN KONT OU A NAN GETH/MIST] (http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). SI W’ VLE  WÈ VALÈ KÒB OU A, NOU MANDE W’ POU SÈVI AK YON EKSPLORATÈ POU BLOCKCHAIN TANKOU[etherscan.io](https://etherscan.io/).',
+VIEWWALLET_Subtitle         : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI AK SÒTI BOUS OU A ANKÒ SOU PAPYE. OU DWE FÈ L’ POU [ PRAN KONT OU A NAN GETH/MIST] (http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). SI W’ VLE  WÈ VALÈ KÒB OU A, NOU MANDE W’ POU SÈVI AK YON EKSPLORATÈ POU BLOCKCHAIN TANKOU [explorer.ballzcoin.org](https://explorer.ballzcoin.org/).',
 VIEWWALLET_Subtitle_Short   : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI POU SÒTI BOUS OU A ANKÒ SOU PAPYE ',
 VIEWWALLET_SuccessMsg       : 'SIKSÈ ! MEN DETAY YO POU BOUS OU A ',
 VIEWWALLET_ShowPrivKey      : '(show)',

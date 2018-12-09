@@ -113,7 +113,7 @@ EOS_09                          :  'EOS 토큰 요청',
 EOS_10                          :  '`claimAll`을 선택',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'MyEtherWallet.com에 오신 것을 환영합니다.',
+ONBOARD_welcome_title           :  'Ballzcoin Web Wallet (MyEtherWallet)에 오신 것을 환영합니다.',
 ONBOARD_welcome_content__1      :  '안전을 위해서 다음 사항을 숙지해주시기 바랍니다. 🙏',
 ONBOARD_welcome_content__2      :  '이 경고들을 무시하면 당신의 자산은 도난당할 수 있습니다.',
 ONBOARD_welcome_content__3      :  '클릭해서 넘어가는 것이 짜증나는 일이라는 것을 저희도 잘 알고 있습니다. 죄송합니다.',
@@ -236,7 +236,7 @@ tx_foundInPending_3         : '트랜잭션을 "취소" 하거나 교체할 수 
 tx_FoundOnChain             : '트랜잭션이 발견되었습니다',
 tx_FoundOnChain_1           : '트랜잭션이 성공적으로 채굴되어 블록 체인상에 기록되었습니다.',
 tx_FoundOnChain_2           : '**만약 빨간색으로 표시된 `( ! )`, 잘못된 인스트럭션 (`BAD INSTRUCTION`) 혹은 가스부족(`OUT OF GAS`) 오류 메시지**가 보인다면, 트랜잭션이 성공적으로 *전송*되지 않은 것입니다. 이 트랜잭션은 취소하거나 교체할 수 없습니다. 그 대신에 새 트랜잭션을 보내야 합니다. "가스부족"오류가 발생한 경우 원래 지정한 가스 한도를 두배로 늘려야 합니다. ',
-tx_FoundOnChain_3           : '**오류 메시지가 없다면 트랜잭션이 성공적으로 전송된 것입니다.** 이제 전송한 ETH 혹은 토큰은 전송된 곳에 있습니다. ETH 또는 토큰을 다른 지갑/거래소 계정에 입금된 것을 볼 수 없다면, 그리고 보낸 후 24시간이 지난 후라면, [관련 서비스에 문의하시기 바랍니다](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). 문의할 때 트랜잭션에 해당하는 *링크*를 보내어 친절하게 당신의 상황을 살펴보라고 부탁하세요.',
+tx_FoundOnChain_3           : '**오류 메시지가 없다면 트랜잭션이 성공적으로 전송된 것입니다.** 이제 전송한 BALLZ 혹은 토큰은 전송된 곳에 있습니다. BALLZ 또는 토큰을 다른 지갑/거래소 계정에 입금된 것을 볼 수 없다면, 그리고 보낸 후 24시간이 지난 후라면, [관련 서비스에 문의하시기 바랍니다](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). 문의할 때 트랜잭션에 해당하는 *링크*를 보내어 친절하게 당신의 상황을 살펴보라고 부탁하세요.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : '', /* FIXME */
@@ -324,7 +324,7 @@ MEW_Tagline                 : '오픈 소스 JavaScript 클라이언트 측 이�
 MEW_Warning_1               : '지갑에 액세스하거나 새 지갑을 생성하기 전 반드시 URL을 확인해주세요. 피싱(사기) 사이트에 주의하세요! ',
 
 /* Footer */
-FOOTER_1                    : '자유롭게 쓸 수 있는 무료 오픈소스 클라이언트 인터페이스로서, 이더리움 지갑 생성 등을 지원합니다. 이더리움 블록체인과 쉽고 안전하게 상호 작용하세요. 지갑을 열기 전에 URL(myetherwallet.com)을 다시한번 확인하세요. ',
+FOOTER_1                    : '자유롭게 쓸 수 있는 무료 오픈소스 클라이언트 인터페이스로서, 이더리움 지갑 생성 등을 지원합니다. 이더리움 블록체인과 쉽고 안전하게 상호 작용하세요. 지갑을 열기 전에 URL(wallet.ballzcoin.org)을 다시한번 확인하세요. ',
 FOOTER_1b                   : '개발자 ',
 FOOTER_2                    : '기부해주셔서 정말 감사합니다. ',
 FOOTER_3                    : '클라이언트 측 지갑 생성 ',
@@ -468,7 +468,7 @@ TRANS_warning               : '"이더리움만 전송하기" 또는 "이더리�
 TRANS_advanced              : '+고급: 데이터 추가 ',
 TRANS_data                  : '데이터 ',
 TRANS_gas                   : '가스 한도 ',
-TRANS_sendInfo              : '21000 가스를 사용하는 표준 트랜잭션은 0.000441 ETH 를 사용합니다. MyEtherWallet은 트랜잭션 수수료를 받지 않습니다. ',
+TRANS_sendInfo              : '21000 가스를 사용하는 표준 트랜잭션은 0.000441 BALLZ 를 사용합니다. MyEtherWallet은 트랜잭션 수수료를 받지 않습니다. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : '오프라인 트랜잭션 생성 & 전송하기 ',
@@ -546,7 +546,7 @@ MSG_info2                   : '타인이 사용하지 못하도록 별명을 포
 MSG_info3                   : '다른 용도로 사용되는 것을 막으려면 세부적인 내용을 메시지에 포함해주세요. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : '다른 버전의 개인 키를 다운로드하거나 종이 지갑 정보를 다시 인쇄할 수 있습니다. [계정을 Geth/Mist로 가져오기](https://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)를 진행할 때 필요합니다. 잔액을 확인하려면 [etherscan.io](https://etherscan.io/)과 같은 블록체인 조회 서비스를 사용하는 것을 권장합니다. ',
+VIEWWALLET_Subtitle         : '다른 버전의 개인 키를 다운로드하거나 종이 지갑 정보를 다시 인쇄할 수 있습니다. [계정을 Geth/Mist로 가져오기](https://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)를 진행할 때 필요합니다. 잔액을 확인하려면 [explorer.ballzcoin.org](https://explorer.ballzcoin.org/)과 같은 블록체인 조회 서비스를 사용하는 것을 권장합니다. ',
 VIEWWALLET_Subtitle_Short   : '다른 버전의 개인 키를 다운로드하거나 종이 지갑 정보를 다시 인쇄할 수 있습니다. ',
 VIEWWALLET_SuccessMsg       : '성공했습니다! 지갑의 세부사항은 다음과 같습니다. ',
 VIEWWALLET_ShowPrivKey      : '(보기) ',

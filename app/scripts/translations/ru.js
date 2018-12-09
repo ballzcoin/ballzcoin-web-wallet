@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -231,7 +231,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your BALLZ or Tokens are where you sent them. If you cannot see this BALLZ or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -279,7 +279,7 @@ NAV_InteractContract        : 'Interact with Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Мои кошельки ',
 NAV_Offline                 : 'Оффлайн-перевод ',
-NAV_SendEther               : 'Перевести эфир (ether) и токены ',
+NAV_SendEther               : 'Перевести эфир (Ballzcoin) и токены ',
 NAV_SendTokens              : 'Перевести токены ',
 NAV_SignMsg                 : 'Подписать сообщение ',
 NAV_Swap                    : 'Обмен ',
@@ -319,7 +319,7 @@ MEW_Tagline                 : 'Ethereum кошелёк на javascript с отк
 CX_Tagline                  : 'Ethereum кошелёк на javascript с открытым исходным кодом в виде расширения для браузера Chrome ',
 
 /* Footer */
-FOOTER_1                    : 'Написанный на javascript инструмент с открытым исходным кодом для создания Ethereum кошельков и выполнения транзакций. ',
+FOOTER_1                    : 'Написанный на javascript инструмент с открытым исходным кодом для создания Ballzcoin кошельков и выполнения транзакций. ',
 FOOTER_1b                   : 'Авторы: ',
 FOOTER_2                    : 'Пожертвования приветствуются: ',
 FOOTER_3                    : 'Создание кошелька на стороне клиента от ',
@@ -412,7 +412,7 @@ TRANS_desc                  : 'Если Вы хотите перевести т�
 TRANS_warning               : 'Если Вы используете функции "только ETH" или "только ETC", перевод будет выполнен с помощью контракта. У некоторых сервисов могут возникнуть проблемы с приёмом таких переводов. Уточните этот вопрос. ',
 TRANS_advanced              : '+Дополнительно: добавить данные ',
 TRANS_data                  : 'Данные ',
-TRANS_sendInfo              : 'Стандартная транзакция, использующая 21000 газа, будет стоить 0,000441 эфира (ether). Мы указываем цену газа немного выше минимально возможной: 0,000000021 эфира (ether), для того, чтобы ускорить выполнение танзакций. Мы не берём комиссию за выполнение транзакций. ',
+TRANS_sendInfo              : 'Стандартная транзакция, использующая 21000 газа, будет стоить 0,000441 эфира (BALLZ). Мы указываем цену газа немного выше минимально возможной: 0,000000021 эфира (BALLZ), для того, чтобы ускорить выполнение танзакций. Мы не берём комиссию за выполнение транзакций. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : 'Транзакции вида "только ETH" и "только ETC" ',
@@ -471,7 +471,7 @@ MYWAL_Content_2             : 'Убедитесь, что Вы **сохрани�
 MYWAL_Content_3             : 'Если Вы планируете в будущем использовать этот кошелёк в MyEtherWallet CX, Вам надо будет вручную заново добавить его, указав закрытый ключ или файл JSON и пароль. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Позволяет скачать закрытые ключи в различных форматах, а также повторно напечатать Ваши бумажные кошельки. Вам это понадобится, когда Вы захотите [импортировать Ваши счета в geth или Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Для проверки баланса Ваших счетов мы рекомендуем использовать браузер блокчейна, например [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Позволяет скачать закрытые ключи в различных форматах, а также повторно напечатать Ваши бумажные кошельки. Вам это понадобится, когда Вы захотите [импортировать Ваши счета в geth или Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Для проверки баланса Ваших счетов мы рекомендуем использовать браузер блокчейна, например [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Позволяет Вам скачать Ваши закрытые ключи в различных форматах, а также повторно напечатать Ваши бумажные кошельки. ',
 VIEWWALLET_SuccessMsg       : 'Поздравляем! Вот информация о Вашем кошельке. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

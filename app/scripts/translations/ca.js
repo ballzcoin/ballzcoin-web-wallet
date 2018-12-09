@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Hi ha una oportunitat de "cancel·lar" or reempla
 tx_FoundOnChain             : 'Transacció trobada',
 tx_FoundOnChain_1           : 'La teva transacció s\'ha minat correctament i és a la blockchain.',
 tx_FoundOnChain_2           : '**Si veus un `( ! )` vermell, un missatge d\'error `BAD INSTRUCTION` o `OUT OF GAS` **, vol dir que la transacció no s\'ha *enviat* correctament. No es pot cancel·lar o reemplaçar aquesta transacció. En lloc d\'això, envia una transacció nova. Si reps un error "Out of Gas", hauries de duplicar el límit de gas especificat originalment.',
-tx_FoundOnChain_3           : '**Si no veus cap error, la teva transacció s\'ha enviat amb èxit.** El teu ETH o Tokens són on els has enviat. Si no pots veure aquest ETH o Tokens a la teva cartera / compte de bescanvi, i han passat més de 24 hores des de l\'enviament, si us plau [contacta amb aquest servei](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Envia *l\'enllaç* de la teva transacció si demana amablement que investiguin.',
+tx_FoundOnChain_3           : '**Si no veus cap error, la teva transacció s\'ha enviat amb èxit.** El teu BALLZ o Tokens són on els has enviat. Si no pots veure aquest BALLZ o Tokens a la teva cartera / compte de bescanvi, i han passat més de 24 hores des de l\'enviament, si us plau [contacta amb aquest servei](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Envia *l\'enllaç* de la teva transacció si demana amablement que investiguin.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Utilitza la teva',
@@ -275,7 +275,7 @@ NAV_InteractContract        : 'Interactua amb un contracte ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Les meves carteres ',
 NAV_Offline                 : 'Enviar sense connexió ',
-NAV_SendEther               : 'Envia Ether & Tokens ',
+NAV_SendEther               : 'Envia Ballzcoin & Tokens ',
 NAV_SendTokens              : 'Envia Tokens ',
 NAV_SignMsg                 : 'Firmar missatge ',
 NAV_Swap                    : 'Intercanviar ',
@@ -315,7 +315,7 @@ MEW_Tagline                 : 'Cartera d\'Ether de codi obert programada amb Jav
 MEW_Warning_1               : 'Comprova sempre l\'URL abans d\'accedir a la vostra cartera o crear una cartera nova. Ves amb compte amb els llocs de phishing! ',
 
 /* Footer */
-FOOTER_1                    : 'Eina gratuïta, de codi obert que s\'executa en el client per generar carteres d\'Ethereum i més. Interactua fàcilment amb la blockchain d\'Ethereum de manera fàcil i segura. Comprova l\'URL (.com) abans de desbloquejar la teva cartera.',
+FOOTER_1                    : 'Eina gratuïta, de codi obert que s\'executa en el client per generar carteres d\'Ballzcoin i més. Interactua fàcilment amb la blockchain d\'Ballzcoin de manera fàcil i segura. Comprova l\'URL ( wallet.ballzcoin.org ) abans de desbloquejar la teva cartera.',
 FOOTER_1b                   : 'Creat per ',
 FOOTER_2                    : 'Donacions molt agraïdes ',
 FOOTER_3                    : 'Generació de carteres al client per ',
@@ -458,7 +458,7 @@ TRANS_desc                  : 'Si vols enviar tokens, si us plau utilitza la pà
 TRANS_advanced              : '+Avançat: Afegir dades ',
 TRANS_data                  : 'Dades ',
 TRANS_gas                   : 'Limit de gas ',
-TRANS_sendInfo              : 'Una transacció estàndard utilitzant 21000 gas costarà 0.000441 ETH. Utilitzem un preu una mica per sobre del mínim de 0.000000021 ETH per assegurar que es mina ràpidament. No ens quedem cap comissió per la transacció. ',
+TRANS_sendInfo              : 'Una transacció estàndard utilitzant 21000 gas costarà 0.000441 BALLZ. Utilitzem un preu una mica per sobre del mínim de 0.000000021 BALLZ per assegurar que es mina ràpidament. No ens quedem cap comissió per la transacció. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'Crea i envia una transacció sense connexió ',
@@ -536,7 +536,7 @@ MSG_info2                   : 'Inclou el teu àlies i on el fas servir per tal q
 MSG_info3                   : 'Inclou una raó específica per tal que el missatge no pugui ser reutilitzat per un altre propòsit. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Això et permet descarregar diferents versions de les claus privades i tornar a imprimir la teva cartera de paper. És possible que vulguis fer això per [importar el teu compte a Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vols comprovar el teu saldo, recomanem utilitzar un explorador de la blockchain com [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Això et permet descarregar diferents versions de les claus privades i tornar a imprimir la teva cartera de paper. És possible que vulguis fer això per [importar el teu compte a Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vols comprovar el teu saldo, recomanem utilitzar un explorador de la blockchain com [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Això et permet descarregar diferents versions de les claus privades i tornar a imprimir la teva cartera de paper. ',
 VIEWWALLET_SuccessMsg       : 'Enhorabona! Aquests són els detalls de la teva cartera. ',
 VIEWWALLET_ShowPrivKey      : '(mostra)',

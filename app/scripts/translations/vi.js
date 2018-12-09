@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your BALLZ or Tokens are where you sent them. If you cannot see this BALLZ or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -276,7 +276,7 @@ NAV_InteractContract        : 'Interact with Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Ví Của Tôi ',
 NAV_Offline                 : 'Giao Dịch Offline ',
-NAV_SendEther               : 'Gửi Ether và Tokens ',
+NAV_SendEther               : 'Gửi Ballzcoin và Tokens ',
 NAV_SendTokens              : 'Gửi Token ',
 NAV_SignMsg                 : 'Sign Message ',
 NAV_Swap                    : 'Swap ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 CX_Tagline                  : 'Open Source JavaScript Client-Side Ether Wallet Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( myetherwallet.com ) before unlocking your wallet.',
+FOOTER_1                    : 'Free, open-source, client-side interface for generating Ballzcoin wallets &amp; more. Interact with the Ballzcoin blockchain easily &amp; securely. Double-check the URL ( wallet.ballzcoin.org ) before unlocking your wallet.',
 FOOTER_1b                   : 'Nhà Phát Triển: ',
 FOOTER_2                    : 'Quyên Góp & Ủng Hộ Vào "Quỹ Phát Triển" Từ Bạn Là Một Hành Động Đáng Trân Trọng: ',
 FOOTER_3                    : 'Client-side wallet generation by ',
@@ -412,7 +412,7 @@ TRANS_warning               : 'Nếu bạn sử dụng chức năng "Chỉ ETH" 
 TRANS_advanced              : 'Nâng Cao: Thêm Dữ Liệu ',
 TRANS_data                  : 'Dữ Liệu: ',
 TRANS_gas                   : 'Gas Limit: ',
-TRANS_sendInfo              : 'Mỗi Giao dịch Phổ Thông sử dụng hết 21000 gas có giá tương đương 0.000441 ETH. Chúng tôi áp dụng giá Gas dành cho một giao dịch cao hơn so với mức tối thiểu là 0.000000021 ETH nhằm đảm bảo một giao dịch được diễn ra nhanh. Chúng tôi hoàn toàn không nhận được khoản tiền phát sinh nào từ phí giao dịch. ',
+TRANS_sendInfo              : 'Mỗi Giao dịch Phổ Thông sử dụng hết 21000 gas có giá tương đương 0.000441 BALLZ. Chúng tôi áp dụng giá Gas dành cho một giao dịch cao hơn so với mức tối thiểu là 0.000000021 BALLZ nhằm đảm bảo một giao dịch được diễn ra nhanh. Chúng tôi hoàn toàn không nhận được khoản tiền phát sinh nào từ phí giao dịch. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : 'Giao Dịch "Chỉ ETH" Và "Chỉ ETC" ',
@@ -545,7 +545,7 @@ MYWAL_Content_2             : 'Hãy chắc chắn bạn đã **Lưu giữ Privat
 MYWAL_Content_3             : 'Nếu bạn muốn sử dụng địa chỉ Ví này với MyEtherWallet CX trong tương lai, bạn sẽ cần phải tự thêm vào lại bằng cách sử dụng tập tin Private Key / JSON và mật khẩu. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Việc này cho phép bạn tải về các phiên bản khác nhau của Private Key và in lại ví giấy của bạn. Bạn có thể muốn làm điều này để [nhập tài khoản của bạn vào Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Nếu bạn muốn kiễm tra số dư của bạn, chúng tôi khuyên bạn sử dụng một blockchain explorer như [etherscan.io] (https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Việc này cho phép bạn tải về các phiên bản khác nhau của Private Key và in lại ví giấy của bạn. Bạn có thể muốn làm điều này để [nhập tài khoản của bạn vào Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Nếu bạn muốn kiễm tra số dư của bạn, chúng tôi khuyên bạn sử dụng một blockchain explorer như [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Việc này cho phép bạn tải về các phiên bản khác nhau của Private Key và in lại ví giấy của bạn. ',
 VIEWWALLET_SuccessMsg       : 'Đã Thành Công! Đây là thông tin chi tiết về Ví của bạn. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

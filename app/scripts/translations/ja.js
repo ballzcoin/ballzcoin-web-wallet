@@ -111,7 +111,7 @@ EOS_09                          :  'EOSトークンを請求する', /*Claim EOS
 EOS_10                          :  '`claimAll`を選択する', /*Select `claimAll`.*/
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'MyEtherWallet.com へようこそ!', /*Welcome to MyEtherWallet.com*/
+ONBOARD_welcome_title           :  'Ballzcoin Web Wallet (MyEtherWallet) へようこそ!', /*Welcome to MyEtherWallet.com*/
 ONBOARD_welcome_content__1      :  'あなた自身の安全のために、以下の事項をご理解ください。🙏', /*Please take some time to understand this for your own safety. 🙏*/
 ONBOARD_welcome_content__2      :  'これらの警告をよくご覧いただきませんと、**資産が盗まれる**ことになります。', /*Your funds will be stolen if you do not heed these warnings.*/
 ONBOARD_welcome_content__3      :  'わずらわしい説明だと重々承知しております。申し訳ございません。', /*We know this click-through stuff is annoying. We are sorry.*/
@@ -338,7 +338,7 @@ PARITY_Old                  : "(parity-07) 同じ[nonce](https://kb.myetherwalle
 PARITY_TooCheapToReplace    : "(parity-08) トランザクション手数料が低すぎます。ご利用のノードの最低額を満たしていません（最低額: (d+), 指定: (d+)）。ガス価格かガスリミットを上げてください。[詳細はこちら](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
 
 
-FOOTER_1                    : 'Ethereum ウォレットを作成するための、無料で、オープンソースの、クライアントサイド・インターフェイス。Ethereum のブロックチェーンを簡単且つ安全に操作。お財布解錠の前に、URL (myetherwallet.com) を再確認してください。',
+FOOTER_1                    : 'Ballzcoin ウォレットを作成するための、無料で、オープンソースの、クライアントサイド・インターフェイス。Ballzcoin のブロックチェーンを簡単且つ安全に操作。お財布解錠の前に、URL ( wallet.ballzcoin.org ) を再確認してください。',
 FOOTER_1b                   : '制作者:',
 FOOTER_2                    : '投げ銭に感謝いたします！',
 FOOTER_3                    : 'クライアント・サイド ウォレット制作者:',
@@ -425,7 +425,7 @@ NAV_InteractContract        : '契約を操作',
 NAV_Multisig                : 'マルチシグ',
 NAV_MyWallets               : '自分のお財布',
 NAV_Offline                 : 'オフライン送出',
-NAV_SendEther               : 'Ether/トークンの送出',
+NAV_SendEther               : 'Ballzcoin/トークンの送出',
 NAV_SendTokens              : 'トークン送出',
 NAV_SignMsg                 : 'メッセージ署名',
 NAV_Swap                    : '通貨の両替',
@@ -532,7 +532,7 @@ TRANS_advanced              : '+高度な設定：データを追加します',
 TRANS_data                  : 'データ',
 TRANS_desc                  : 'トークンを送出するには、代わりに「トークン送出」のタブを選択してください。',
 TRANS_gas                   : 'ガスリミット',
-TRANS_sendInfo              : '21000ガスを使用する標準トランザクションは、0.000441 ETHを消費します。このサービスでは、トランザクション料金を徴収いたしません。',
+TRANS_sendInfo              : '21000ガスを使用する標準トランザクションは、0.000441 BALLZを消費します。このサービスでは、トランザクション料金を徴収いたしません。',
 
 translate_version           : '0.5',
 Translator_Desc             : '日本語翻訳を支援する:',
@@ -555,7 +555,7 @@ tx_foundInPending_3         : 'トランザクションの「取り消し」ま�
 tx_FoundOnChain             : 'トランザクションが見つかりました',
 tx_FoundOnChain_1           : 'トランザクションは正常に発掘され、ブロックチェーンに組み込まれました。',
 tx_FoundOnChain_2           : '**もし赤い`( ! )`マークや`BAD INSTRUCTION`、あるいは`OUT OF GAS` のエラーメッセージを見つけたら**, トランザクションの送出に失敗したということです。トランザクションの取り消しや置き換えはできません。代わりに、新しくトランザクションを送出してください。"Out of Gas"エラーの場合には、ガスリミットを初めに指定した値の2倍にしてください。',
-tx_FoundOnChain_3           : '**何もエラーメッセージが表示されていなければ、トランザクションは正しく送出されました。** ETH/トークンは、送出先に到着しました。もし、ETH/トークンが他のお財布や取引所のウォレットに見つからず、送出から24時間以上経っていたら、[送出先のサービスに連絡](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html)してください。自分のトランザクションのリンクを連絡し、正確に状況を確認してもらってください。',
+tx_FoundOnChain_3           : '**何もエラーメッセージが表示されていなければ、トランザクションは正しく送出されました。** BALLZ/トークンは、送出先に到着しました。もし、BALLZ/トークンが他のお財布や取引所のウォレットに見つからず、送出から24時間以上経っていたら、[送出先のサービスに連絡](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html)してください。自分のトランザクションのリンクを連絡し、正確に状況を確認してもらってください。',
 tx_notFound                 : 'トランザクションが見つかりません',
 tx_notFound_1               : 'このトランザクションは、現在接続中のTXプールの中にありませんでした。',
 tx_notFound_2               : 'もしたった今トランザクションを送出したばかりであれば、15秒待ってから「取引状況の確認」ボタンをもう一度押してください。',
@@ -567,7 +567,7 @@ TXFEE_Desc                  : 'トランザクション手数料は、トラン�
 
 VIEWWALLET_HidePrivKey      : '(隠す)',
 VIEWWALLET_ShowPrivKey      : '(表示する)',
-VIEWWALLET_Subtitle         : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報（ペーパーウォレット）を再印刷することができます。[Geth/Mistに口座をインポートする](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)際に必要になります。残高を確認するためには、[etherscan.io](https://etherscan.io/)のようなブロックチェーン・エクスプローラー サービスを使う事をおすすめします。',
+VIEWWALLET_Subtitle         : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報（ペーパーウォレット）を再印刷することができます。[Geth/Mistに口座をインポートする](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)際に必要になります。残高を確認するためには、[explorer.ballzcoin.org](https://explorer.ballzcoin.org/)のようなブロックチェーン・エクスプローラー サービスを使う事をおすすめします。',
 VIEWWALLET_Subtitle_Short   : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報（ペーパーウォレット）を再印刷することができます。',
 VIEWWALLET_SuccessMsg       : '成功しました! お財布の詳細は以下の通りです。',
 

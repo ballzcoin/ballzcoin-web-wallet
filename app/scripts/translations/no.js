@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Det er en mulighet for at du kan "kansellere" ell
 tx_FoundOnChain             : 'Transaksjon funnet',
 tx_FoundOnChain_1           : 'Transaksjonen din var vellykket og ligger i blokkkjeden.',
 tx_FoundOnChain_2           : '**Hvis du ser et rødt utropstegn `( ! )` eller `BAD INSTRUCTION` eller `OUT OF GAS` feilmelding**, så betyr dette at transaksjonen ikke var vellykket. Du kan ikke "kansellere" eller erstatte denne transaksjonen. I stedet kan du sende en ny transaksjon. Hvis du fikk en "Out of Gas"-feilmelding, bør du doble gas-grensen som du spesifiserte i utgangspunktet. ',
-tx_FoundOnChain_3           : '**Hvis du ikke ser noen feil, var transaksjonen vellykket.** Dine ETH eller Tokens er der du sendte dem. Hvis du ikke ser disse ETH eller Tokens der du sendte dem, og det har gått mer enn 24 timer, vennligst [kontakt vedkommende service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send dem en *lenke* til transaksjonen din og spør dem pent om å se på situasjonen din.',
+tx_FoundOnChain_3           : '**Hvis du ikke ser noen feil, var transaksjonen vellykket.** Dine BALLZ eller Tokens er der du sendte dem. Hvis du ikke ser disse BALLZ eller Tokens der du sendte dem, og det har gått mer enn 24 timer, vennligst [kontakt vedkommende service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send dem en *lenke* til transaksjonen din og spør dem pent om å se på situasjonen din.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Bruk',
@@ -276,7 +276,7 @@ NAV_InteractContract        : 'Samhandle med Kontrakt ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Mine lommebøker ',
 NAV_Offline                 : 'Send Offline ',
-NAV_SendEther               : 'Send Ether & Tokens ',
+NAV_SendEther               : 'Send Ballzcoin & Tokens ',
 NAV_SendTokens              : 'Send Tokens ',
 NAV_SignMsg                 : 'Signér Melding ',
 NAV_Swap                    : 'Veksling ',
@@ -316,7 +316,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 CX_Tagline                  : 'Open Source JavaScript Client-Side Ether Wallet Chrome Extension ', /* Intentionally not translated */
 
 /* Footer */
-FOOTER_1                    : 'Et åpen-kildekode-, javascript-, klient-side-verktøy for å opprette Ethereum-lommebøker & sende transaksjoner. ',
+FOOTER_1                    : 'Et åpen-kildekode-, javascript-, klient-side-verktøy for å opprette Ballzcoin-lommebøker & sende transaksjoner. ',
 FOOTER_1b                   : 'Skapt av ',
 FOOTER_2                    : 'Donasjoner mottas med takk: ',
 FOOTER_3                    : 'Klient-side lommebok-oppretting av ',
@@ -439,7 +439,7 @@ TRANS_warning               : 'Hvis du bruker "Kun ETH"- eller "Kun ETC"-funksjo
 TRANS_advanced              : '+Avansert: Legg til data ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'En standard transaksjon som bruker 21000 gas vil koste 0,000441 ETH. Vi bruker en litt-over-minimum gas-pris på 0,000000021 ETH for å sikre at transaksjonen blir raskt behandlet. Vi tar ikke noe transaksjonsgebyr. ',
+TRANS_sendInfo              : 'En standard transaksjon som bruker 21000 gas vil koste 0,000441 BALLZ. Vi bruker en litt-over-minimum gas-pris på 0,000000021 BALLZ for å sikre at transaksjonen blir raskt behandlet. Vi tar ikke noe transaksjonsgebyr. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : '"Kun ETH"- og "Kun ETC"-transaksjoner ',
@@ -551,7 +551,7 @@ MYWAL_Content_2             : 'Vær sikker på at du har **lagret den private n�
 MYWAL_Content_3             : 'Hvis du ønsker å bruke denne lommeboken med din MyEtherWallet Chrome-utvidelse i fremtiden, må du manuelt legge den til igjen ved å bruke den private nøkkelen/JSON og passord. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Dette gir deg muligheten til å laste ned ulike versjoner av private nøkler og skrive ut papirlommeboken din på nytt. Du vil kanskje gjøre dette for å [importere kontoen din til Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Hvis du bare ønsker å sjekke saldoen din, anbefaler vi at du bruker en "blockchain explorer" som f.eks. [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Dette gir deg muligheten til å laste ned ulike versjoner av private nøkler og skrive ut papirlommeboken din på nytt. Du vil kanskje gjøre dette for å [importere kontoen din til Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Hvis du bare ønsker å sjekke saldoen din, anbefaler vi at du bruker en "blockchain explorer" som f.eks. [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Dette gir deg muligheten til å laste ned ulike versjoner av private nøkler og skrive ut papirlommeboken din på nytt. ',
 VIEWWALLET_SuccessMsg       : 'Suksess! Her er detaljene om din lommebok. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

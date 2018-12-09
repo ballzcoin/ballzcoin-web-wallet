@@ -106,7 +106,7 @@ EOS_09                          :  'Klaim Token EOS',
 EOS_10                          :  'Pilih `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Selamat datang di MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Selamat datang di Ballzcoin Web Wallet (MyEtherWallet)',
 ONBOARD_welcome_content__1      :  'Sisihkan waktu untuk memahami informasi berikut, demi keamanan Anda. 🙏',
 ONBOARD_welcome_content__2      :  'Dana Anda akan bisa dicuri jika Anda tidak mengindahkan peringatan ini.',
 ONBOARD_welcome_content__3      :  'Kami tahu laman informasi yang harus di klik ini mengganggu. Kami mohon maaf sebelumnya.',
@@ -232,7 +232,7 @@ tx_foundInPending_3         : 'Ada kemungkinan Anda dapat membatalkan atau mengg
 tx_FoundOnChain             : 'Transaksi ditemukan',
 tx_FoundOnChain_1           : 'Transaksi Anda telah berhasil ditambang (mined) dan sudah masuk di blockchain.',
 tx_FoundOnChain_2           : '**Jika muncul Error `( ! )`, atau `BAD INSTRUCTION` atau `OUT OF GAS` berwarna merah**, artinya transaksi tidak berhasil terkirim. Transaksi ini tidak dapat dibatalkan ataupun diganti. Yang dapat Anda lakukan adalah mengirim transaksi baru. Jika muncul Error "Out of Gas" error, lipat dua-kan jumlah gas limit dari yang dipakai sebelumnya.',
-tx_FoundOnChain_3           : '**Jika tidak ada Error, artinya transaksi Anda berhasil terkirim.** ETH atau Token akan masuk ke alamat yang dituju. Jika ETH atau Token tidak muncul di alamat dompet / exchange account yang dituju, dan sudah lebih dari 24 jam sejak pengiriman, segera [hubungi penerima kiriman](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Lampirkan *link* dari transaksi Anda dan mintalah bantuan untuk memeriksa apa yang terjadi.',
+tx_FoundOnChain_3           : '**Jika tidak ada Error, artinya transaksi Anda berhasil terkirim.** BALLZ atau Token akan masuk ke alamat yang dituju. Jika BALLZ atau Token tidak muncul di alamat dompet / exchange account yang dituju, dan sudah lebih dari 24 jam sejak pengiriman, segera [hubungi penerima kiriman](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Lampirkan *link* dari transaksi Anda dan mintalah bantuan untuk memeriksa apa yang terjadi.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Memakai',
@@ -279,7 +279,7 @@ NAV_InteractContract        : 'Interaksi dengan Kontrak ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Dompet Saya ',
 NAV_Offline                 : 'Kirim Offline ',
-NAV_SendEther               : 'Kirim Ether dan Token ',
+NAV_SendEther               : 'Kirim Ballzcoin dan Token ',
 NAV_SendTokens              : 'Kirim Token ',
 NAV_SignMsg                 : 'Penandaan Pesan ',
 NAV_Swap                    : 'Penukaran ',
@@ -320,7 +320,7 @@ MEW_Tagline                 : 'Open Source JavaScript Client-Side Ether Wallet '
 CX_Tagline                  : 'Open Source JavaScript Client-Side Ether Wallet Chrome Extension ',
 
 /* Footer */
-FOOTER_1                    : 'Client-side tool open source berbasis javascript untuk membuat Dompet dan transaksi Ethereum. ',
+FOOTER_1                    : 'Client-side tool open source berbasis javascript untuk membuat Dompet dan transaksi Ballzcoin. ',
 FOOTER_1b                   : 'Oleh ',
 FOOTER_2                    : 'Donasi Anda akan sangat dihargai: ',
 FOOTER_3                    : 'Pembuatan Dompet Client-side wallet oleh ',
@@ -447,7 +447,7 @@ TRANS_warning               : 'Penggunaan fitur "Hanya ETH" atau "Hanya ETC" mem
 TRANS_advanced              : '+Advanced: Tambah Data ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Transaksi standar menggunakan 21000 gas membutuhkan 0.000441 ETH. Kami memakai harga gas sedikit-diatas-harga-gas-minimum senilai 0.000000021 ETH untuk mempercepat. Kami tidak mengambil biaya atas transaksi. ',
+TRANS_sendInfo              : 'Transaksi standar menggunakan 21000 gas membutuhkan 0.000441 BALLZ. Kami memakai harga gas sedikit-diatas-harga-gas-minimum senilai 0.000000021 BALLZ untuk mempercepat. Kami tidak mengambil biaya atas transaksi. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : 'Transaksi "Hanya ETH" dan "Hanya ETC" ',
@@ -509,7 +509,7 @@ MYWAL_Content_2             : 'Pastkan Anda telah **menyimpan Kunci Privat dan/a
 MYWAL_Content_3             : 'Jika Anda akan memakai dompet ini dengan MyEtherWallet CX Anda ke depan, Kunci Privat/JSON dan password harus ditambahkan lagi secara manual. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Memungkinkan Anda untuk mencetak Dompet Kertas dari berbagai format atau versi Kunci Privat. Hal ini diperlukan pada saat anda ingin [mengimpor akun Anda ke Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jika Anda hanya ingin pengecekan saldo, pakailah salah satu layanan blockchain explorer seperti [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Memungkinkan Anda untuk mencetak Dompet Kertas dari berbagai format atau versi Kunci Privat. Hal ini diperlukan pada saat anda ingin [mengimpor akun Anda ke Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jika Anda hanya ingin pengecekan saldo, pakailah salah satu layanan blockchain explorer seperti [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Untuk pencetakan Dompet Kertas dari berbagai format Kunci Privat. ',
 VIEWWALLET_SuccessMsg       : 'Berhasil! Berikut detil dari dompet Anda. ',
 VIEWWALLET_ShowPrivKey      : '(show)',

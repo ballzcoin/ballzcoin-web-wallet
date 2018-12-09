@@ -107,7 +107,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -230,7 +230,7 @@ tx_foundInPending_3         : 'Forse è possibile "annullare" o sostituire quest
 tx_FoundOnChain             : 'Transazione trovata',
 tx_FoundOnChain_1           : 'La transazione è stata correttamente inclusa in un blocco e ora si trova sulla *blockchain*.',
 tx_FoundOnChain_2           : '**Se vedi un `( ! )` rosso, un messaggio di errore `BAD INSTRUCTION` o `OUT OF GAS`**, significa che la transazione non è stata correttamente *inviata*. Non puoi annullare o sostituire questa transazione. Puoi però inviarne una nuova. Se hai ricevuto un messaggio di errore "Out of Gas", dovresti raddoppiare il limite gas che avevi indicato in origine.',
-tx_FoundOnChain_3           : '**Se non vedi errori, la transazione è stata inviata correttamente.** I tuoi ETH o i tuoi token sono dove li hai inviati. Se non vedi questi ETH o token nell\'altro portafoglio / nel conto della piattaforma di scambio, e se sono passate più di 24 ore dall\'invio, [contatta quel servizio esterno](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Invia loro il *link* alla transazione e chiedi, cortesemente, di controllare la tua situazione.',
+tx_FoundOnChain_3           : '**Se non vedi errori, la transazione è stata inviata correttamente.** I tuoi BALLZ o i tuoi token sono dove li hai inviati. Se non vedi questi BALLZ o token nell\'altro portafoglio / nel conto della piattaforma di scambio, e se sono passate più di 24 ore dall\'invio, [contatta quel servizio esterno](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Invia loro il *link* alla transazione e chiedi, cortesemente, di controllare la tua situazione.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Usa il tuo',
@@ -277,7 +277,7 @@ NAV_InteractContract        : 'Interagisci con un contratto ',
 NAV_Multisig                : 'Multifirma ',
 NAV_MyWallets               : 'I miei portafogli ',
 NAV_Offline                 : 'Invia offline ',
-NAV_SendEther               : 'Invia ether e token ',
+NAV_SendEther               : 'Invia Ballzcoin e token ',
 NAV_SendTokens              : 'Invia token ',
 NAV_SignMsg                 : 'Firma messaggio ',
 NAV_Swap                    : 'Scambia ',
@@ -317,7 +317,7 @@ MEW_Tagline                 : 'Portafoglio ether JavaScript lato client Open Sou
 CX_Tagline                  : 'Portafoglio ether JavaScript lato client Open Source (Estensione Chrome) ',
 
 /* Footer */
-FOOTER_1                    : 'Interfaccia gratuita, open source, lato client per generare portafogli Ethereum e altro. Interagisci con la *blockchain* Ethereum facilmente e in modo sicuro. Controlla bene l\'URL ( myetherwallet.com ) prima di sbloccare un portafoglio.',
+FOOTER_1                    : 'Interfaccia gratuita, open source, lato client per generare portafogli Ballzcoin e altro. Interagisci con la *blockchain* Ballzcoin facilmente e in modo sicuro. Controlla bene l\'URL ( wallet.ballzcoin.org ) prima di sbloccare un portafoglio.',
 FOOTER_1b                   : 'Creato da ',
 FOOTER_2                    : 'Donazioni molto apprezzate: ',
 FOOTER_3                    : 'Generazione portafogli lato client da parte di ',
@@ -412,7 +412,7 @@ TRANS_desc                  : 'Se invece volevi inviare dei token, utilizza la p
 TRANS_advanced              : '+Avanzate: aggiungi dati ',
 TRANS_data                  : 'Dati ',
 TRANS_gas                   : 'Limite gas ',
-TRANS_sendInfo              : 'Una transazione standard che utilizza 21000 gas costerà 0,000441 ETH. Utilizziamo un prezzo del gas leggermente al di sopra del minimo pari a 0,000000021 ETH per assicurarci che venga elaborata velocemente. Noi non prendiamo commissioni. ',
+TRANS_sendInfo              : 'Una transazione standard che utilizza 21000 gas costerà 0,000441 BALLZ. Utilizziamo un prezzo del gas leggermente al di sopra del minimo pari a 0,000000021 BALLZ per assicurarci che venga elaborata velocemente. Noi non prendiamo commissioni. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'Genera & invia una transazione offline ',
@@ -463,7 +463,7 @@ MYWAL_Content_2             : 'Assicurati di aver **salvato la chiave privata e/
 MYWAL_Content_3             : 'Se vorrai utilizzare questo portafoglio con MyEtherWallet CX in futuro, dovrai ri-aggiungerlo manualmente tramite la chiave privata/JSON e password. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. Potresti volerlo fare per  [importare il tuo conto in Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Se vuoi controllare il tuo saldo, ti consigliamo di utilizzare uno strumento per esplorare la *blockchain* come [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. Potresti volerlo fare per  [importare il tuo conto in Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Se vuoi controllare il tuo saldo, ti consigliamo di utilizzare uno strumento per esplorare la *blockchain* come [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. ',
 VIEWWALLET_SuccessMsg       : 'Perfetto! Questi sono i dettagli del tuo portafoglio. ',
 VIEWWALLET_ShowPrivKey      : '(mostra)',

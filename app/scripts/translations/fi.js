@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to Ballzcoin Web Wallet, which is based on MyEtherWallet (MEW)',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -231,7 +231,7 @@ tx_foundInPending_3         : 'There is a chance you can "cancel" or replace thi
 tx_FoundOnChain             : 'Transaction Found',
 tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
 tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your BALLZ or Tokens are where you sent them. If you cannot see this BALLZ or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://kb.myetherwallet.com/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Use your',
@@ -279,7 +279,7 @@ NAV_InteractContract        : 'Interact with Contract ',
 NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : 'Minun Lompakkoni ',
 NAV_Offline                 : 'Lähetä Offlinena ',
-NAV_SendEther               : 'Lähetä Etheriä ja Tokeneita ',
+NAV_SendEther               : 'Lähetä Ballzcoin ja Tokeneita ',
 NAV_SendTokens              : 'Lähetä Tokeneita ',
 NAV_SignMsg                 : 'Sign Message ',
 NAV_Swap                    : 'Swap ',
@@ -320,7 +320,7 @@ MEW_Tagline                 : 'Avoimen Lähdekoodin JavaScript Ether Lompakko ',
 CX_Tagline                  : 'Avoimen Lähdekoodin JavaScript Chrome Laajennus ',
 
 /* Footer */
-FOOTER_1                    : 'Avoimen lähdekoodin, javascript työkalu Ethereum lompakkojen luomista & varojen siirtoja varten. ',
+FOOTER_1                    : 'Avoimen lähdekoodin, javascript työkalu Ballzcoin lompakkojen luomista & varojen siirtoja varten. ',
 FOOTER_1b                   : 'Luonut ',
 FOOTER_2                    : 'Lahjoituksia arvostetaan suuresti: ',
 FOOTER_3                    : 'Lompakon luomisen tarjoaa ',
@@ -417,7 +417,7 @@ TRANS_warning               : 'Jos käytät "Vain ETH" tai "Vain ETC" Toimintoja
 TRANS_advanced              : '+Edistynyt: Lisää Tietoja ',
 TRANS_data                  : 'Tiedot ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Tavallinen siirto käyttäen 21000 gasia maksaa 0.000441 ETHiä. Me käytämme hieman-yli-minimin gasin hintaa 0.000000021 ETHiä varmistaaksemme että se louhitaan nopeasti. Me emme veloita siirto maksua. ',
+TRANS_sendInfo              : 'Tavallinen siirto käyttäen 21000 gasia maksaa 0.000441 BALLZ. Me käytämme hieman-yli-minimin gasin hintaa 0.000000021 BALLZ varmistaaksemme että se louhitaan nopeasti. Me emme veloita siirto maksua. ',
 
 /* Send Transaction Modals */
 TRANSModal_Title            : '"Vain ETH" ja "Vain ETC" Siirrot ',
@@ -476,7 +476,7 @@ MYWAL_Content_2             : 'Varmista että olet **tallentanut tähän lompakk
 MYWAL_Content_3             : 'Jos tahdot käyttää tätä lompakkoa MyEtherWallet CX:si kanssa tulevaisuudessa, sinun täytyy manuaalisesti uudelleen-lisätä se käyttäen yksityistä salausavaintasi/JSONia ja salasanaa. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Tämä antaa sinun ladata eri versiota yksityisistä salausavaimistasi ja uudelleen-tulostaa paperi lompakkosi. Saatat tahtoa tehdä tämän [tuodaksesi sinun tilisi Gethiin/Mistiin](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jos haluat tarkistaa saldosi, me suosittelemme käyttämään blockchain exploreria kuten [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Tämä antaa sinun ladata eri versiota yksityisistä salausavaimistasi ja uudelleen-tulostaa paperi lompakkosi. Saatat tahtoa tehdä tämän [tuodaksesi sinun tilisi Gethiin/Mistiin](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Jos haluat tarkistaa saldosi, me suosittelemme käyttämään blockchain exploreria kuten [explorer.ballzcoin.org](https://explorer.ballzcoin.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Tämä antaa sinun ladata eri versiota yksityisistä salausavaimistasi ja uudelleen-tulostaa paperi lompakkosi. ',
 VIEWWALLET_SuccessMsg       : 'Onnistui! Tässä ovat lompakkosi yksityiskohdat. ',
 VIEWWALLET_ShowPrivKey      : '(show)',
